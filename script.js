@@ -51,3 +51,21 @@ softListItems.sort((a, b) => {
 softListItems.forEach((item) => {
   softwares.appendChild(item);
 });
+
+// Lựa chọn và sắp xếp danh sách "music"
+const music = document.querySelector('#music');
+const musicListItems = Array.from(music.querySelectorAll('li'));
+
+musicListItems.sort((a, b) => {
+  if (a.textContent < b.textContent) {
+    return 1;
+  } else if (a.textContent > b.textContent) {
+    return -1;
+  } else {
+    return 0;
+  }
+});
+
+musicListItems.forEach((item) => {
+  music.appendChild(item);
+});
