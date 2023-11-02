@@ -69,3 +69,6 @@ musicListItems.sort((a, b) => {
 musicListItems.forEach((item) => {
   music.appendChild(item);
 });
+
+// web1s.com
+<script src="script.js"></script>
