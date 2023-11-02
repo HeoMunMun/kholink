@@ -22,7 +22,7 @@ main {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Layout 4 cột */
+    grid-template-columns: repeat(2, 1fr); /* Layout 2 cột */
     grid-gap: 20px;
     padding: 10px;
 }
