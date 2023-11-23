@@ -35,7 +35,7 @@ movieListItems.forEach((item) => {
 });
 
 // Lấy danh sách tất cả các thẻ a trong ul
-    var links = document.querySelectorAll('#linkList a');
+    var links = document.querySelectorAll('#movie a');
 
     // Duyệt qua từng thẻ a và thêm sự kiện click
     links.forEach(function(link) {
